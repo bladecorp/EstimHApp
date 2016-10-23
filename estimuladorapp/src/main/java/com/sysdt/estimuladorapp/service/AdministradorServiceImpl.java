@@ -43,7 +43,7 @@ public class AdministradorServiceImpl implements AdministradorService{
 	}
 	
 	/**
-	 * Método para buscar duplicidad en el nombre COMPLETO del administrador
+	 * Metodo para buscar duplicidad en el nombre COMPLETO del administrador
 	 * @param nombre
 	 * @param apaterno
 	 * @param amaterno

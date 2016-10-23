@@ -26,7 +26,7 @@ public class WebServiceImpl implements WebServiceInt{
 		} catch (Exception e) {
 			PacienteEstimDTO pac = new PacienteEstimDTO();
 			pac.setCodigoError(RespuestaWS.EXCEPCION.getId());
-			pac.setMensajeError("Ocurrio una excepción: "+e.getMessage());
+			pac.setMensajeError("Ocurrio una excepcion: "+e.getMessage());
 			return pac;
 		}
 	}

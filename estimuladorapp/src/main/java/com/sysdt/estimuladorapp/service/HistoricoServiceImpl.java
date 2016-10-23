@@ -95,43 +95,43 @@ public class HistoricoServiceImpl implements HistoricoService{
 
 	private boolean validarHistorico(HistoricoDTO historicoDTO)throws ExcepcionHistorico {
  		if(historicoDTO.getLatitud()==null || historicoDTO.getLatitud().trim().length()==0){
- 			throw new ExcepcionHistorico("Latitud llegó null o vacio");
+ 			throw new ExcepcionHistorico("Latitud llega null o vacio");
  		}
  		if(historicoDTO.getLongitud()==null || historicoDTO.getLongitud().trim().length()==0){
- 			throw new ExcepcionHistorico("Longitud llegó null o vacio");
+ 			throw new ExcepcionHistorico("Longitud llega null o vacio");
  		}
  		if(historicoDTO.getEstado()==null){
- 			throw new ExcepcionHistorico("Estado llegó null");
+ 			throw new ExcepcionHistorico("Estado llega null");
  		}
  		if(historicoDTO.getFrecuencia()==null){
- 			throw new ExcepcionHistorico("Frecuencia llegó null");
+ 			throw new ExcepcionHistorico("Frecuencia llega null");
  		}
 		if(historicoDTO.getAmplitud()==null){
-			throw new ExcepcionHistorico("Amplitud llegó null");
+			throw new ExcepcionHistorico("Amplitud llega null");
 		}
 		if(historicoDTO.getTiempo()==null){
-			throw new ExcepcionHistorico("Tiempo llegó null");
+			throw new ExcepcionHistorico("Tiempo llega null");
 		}
 		if(historicoDTO.getIdEstimulador()==null || historicoDTO.getIdEstimulador()==0){
-			throw new ExcepcionHistorico("idEstimulador llegó null o 0");
+			throw new ExcepcionHistorico("idEstimulador llega null o 0");
 		}
 		if(historicoDTO.getIdPaciente()==null || historicoDTO.getIdPaciente()==0){
-			throw new ExcepcionHistorico("idPaciente llegó null o 0");
+			throw new ExcepcionHistorico("idPaciente llega null o 0");
 		}
 		if(historicoDTO.getMinIni()==null){
-			throw new ExcepcionHistorico("Minuto Inicial llegó null");
+			throw new ExcepcionHistorico("Minuto Inicial llega null");
 		}
 		if(historicoDTO.getHoraIni()==null){
-			throw new ExcepcionHistorico("Hora Inicial llegó null");
+			throw new ExcepcionHistorico("Hora Inicial llega null");
 		}
 		if(historicoDTO.getDiaIni()==null){
-			throw new ExcepcionHistorico("Dia Inicial llegó null");
+			throw new ExcepcionHistorico("Dia Inicial llega null");
 		}
 		if(historicoDTO.getMesIni()==null){
-			throw new ExcepcionHistorico("Mes Inicial llegó null");
+			throw new ExcepcionHistorico("Mes Inicial llega null");
 		}
 		if(historicoDTO.getAnioIni()==null){
-			throw new ExcepcionHistorico("Anio Inicial llego null");
+			throw new ExcepcionHistorico("Anio Inicial llega null");
 		}
 		if(historicoDTO.getMinFin()==null){
 			throw new ExcepcionHistorico("Minuto Final llego null");

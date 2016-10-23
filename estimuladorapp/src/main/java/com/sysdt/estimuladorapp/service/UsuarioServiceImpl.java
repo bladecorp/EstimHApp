@@ -155,7 +155,6 @@ public class UsuarioServiceImpl implements UsuarioService{
 						return RespuestaWS.EXITO.getId();
 					}
 				}else if(usuarioDTO.getUsuario().getIdTipoUsuario() == TipoUsuarioEnum.MEDICO.getId()){
-					System.out.println("Entra a médico");
 					Medico medico = usuarioDTO.getMedico();
 					if(medicoService.buscarDuplicidadMedico(medico.getNombre(), medico.getApaterno(), medico.getAmaterno(), medico.getIdUsuario())){
 						System.out.println("Antes de insertar medico");

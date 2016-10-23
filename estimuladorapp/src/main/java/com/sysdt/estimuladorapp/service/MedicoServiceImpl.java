@@ -63,7 +63,7 @@ public class MedicoServiceImpl implements MedicoService{
 	}
 	
 	/**
-	 * Método para buscar duplicidad en el nombre COMPLETO del medico
+	 * Metodo para buscar duplicidad en el nombre COMPLETO del medico
 	 * @param nombre
 	 * @param apaterno
 	 * @param amaterno
