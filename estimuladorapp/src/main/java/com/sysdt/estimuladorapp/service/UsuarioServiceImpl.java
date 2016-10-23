@@ -213,7 +213,7 @@ public class UsuarioServiceImpl implements UsuarioService{
 	}
 	
 	/**
-	 * Método para buscar duplicidad en el nombre del Usuario
+	 * Metodo para buscar duplicidad en el nombre del Usuario
 	 * @param nomUsuario nombre del usuario
 	 * @return Devuelve TRUE si el nombre NO SE DUPLICA
 	 * @throws Exception
