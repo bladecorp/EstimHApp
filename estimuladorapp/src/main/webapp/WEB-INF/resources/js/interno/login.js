@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
 	function enviarFormulario(){ console.log(ctx);
 		$.ajax({
-			url: ctx+'login',
+			url: ctx+'/login',
 			type: 'POST',
 			dataType: 'json',
 			data:{username: username.val().trim(), password: password.val().trim()},

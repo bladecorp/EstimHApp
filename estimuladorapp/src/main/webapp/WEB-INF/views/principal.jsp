@@ -16,43 +16,43 @@
 <c:set var="c" value="${pageContext.request.contextPath}" />
 
 <!-- Bootstrap -->
-<link href="${c}/resources/css/bootstrap.min.css" rel="stylesheet">
+<link href="${c}resources/css/bootstrap.min.css" rel="stylesheet">
 <!-- Font Awesome -->
-<link href="${c}/resources/css/font-awesome.min.css" rel="stylesheet">
+<link href="${c}resources/css/font-awesome.min.css" rel="stylesheet">
 <!-- Custom Theme Style -->
-<link href="${c}/resources/css/custom.min.css" rel="stylesheet">
+<link href="${c}resources/css/custom.min.css" rel="stylesheet">
 <!-- iCheck -->
-<link href="${c}/resources/css/skins-icheck/all.css" rel="stylesheet">
+<link href="${c}resources/css/skins-icheck/all.css" rel="stylesheet">
 <!-- DataTables y Bootstrap -->
-<link href="${c}/resources/css/dataTables.bootstrap.min.css"
+<link href="${c}resources/css/dataTables.bootstrap.min.css"
 	rel="stylesheet">
-<link href="${c}/resources/css/responsive.bootstrap.min.css"
+<link href="${c}resources/css/responsive.bootstrap.min.css"
 	rel="stylesheet">
-<link href="${c}/resources/css/scroller.bootstrap.min.css"
+<link href="${c}resources/css/scroller.bootstrap.min.css"
 	rel="stylesheet">
-<link href="${c}/resources/css/buttons.bootstrap.min.css"
+<link href="${c}resources/css/buttons.bootstrap.min.css"
 	rel="stylesheet">
 <!-- jQuery UI -->
-<link href="${c}/resources/css/jquery-ui.min.css" rel="stylesheet">
+<link href="${c}resources/css/jquery-ui.min.css" rel="stylesheet">
 <!-- SWITCHERY -->
-<link href="${c}/resources/css/switchery.min.css" rel="stylesheet">
+<link href="${c}resources/css/switchery.min.css" rel="stylesheet">
 <!-- pNotify -->
-<link href="${c}/resources/css/pnotify.custom.min.css" media="all"
+<link href="${c}resources/css/pnotify.custom.min.css" media="all"
 	rel="stylesheet" type="text/css" />
 <!-- Sweet Alert 2 -->
-<link href="${c}/resources/css/sweetalert.css" media="all"
+<link href="${c}resources/css/sweetalert.css" media="all"
 	rel="stylesheet" type="text/css" />
 <!-- DateRangePicker -->
-<link href="${c}/resources/css/daterangepicker.css" media="all"
+<link href="${c}resources/css/daterangepicker.css" media="all"
 	rel="stylesheet" type="text/css" />
 <!-- Slide Range -->
-<link href="${c}/resources/css/ion.rangeSlider.css" media="all"
+<link href="${c}resources/css/ion.rangeSlider.css" media="all"
 	rel="stylesheet" type="text/css" />
-<link href="${c}/resources/css/ion.rangeSlider.skinHTML5.css"
+<link href="${c}resources/css/ion.rangeSlider.skinHTML5.css"
 	media="all" rel="stylesheet" type="text/css" />
 
 <!-- INTERNO -->
-<link href="${c}/resources/css/interno/micss.css" rel="stylesheet">
+<link href="${c}resources/css/interno/micss.css" rel="stylesheet">
 
 <script>
 	var ctx = "${pageContext.request.contextPath}";
@@ -87,7 +87,7 @@
 					 <!-- menu profile quick info -->
             		<div class="profile">
               			<div class="profile_pic">
-                			<img src="${c}/resources/imgs/sysdt.png" alt="..." class="img-circle profile_img">
+                			<img src="${c}resources/imgs/sysdt.png" alt="..." class="img-circle profile_img">
               			</div>
               			<div class="profile_info">
 <!--                 			<span>Bienvenid@,</span> -->
@@ -171,7 +171,7 @@
 								<a href="javascript:;" 
 								class="user-profile dropdown-toggle" data-toggle="dropdown"
 								aria-expanded="false"> <img
-									src="${c}/resources/imgs/sysdt.png" alt="" width="6%"
+									src="${c}resources/imgs/sysdt.png" alt="" width="6%"
 									height="8%">${nombre} <span
 									class=" fa fa-angle-down"></span></a>
 							
@@ -198,7 +198,7 @@
 					<!-- .FIN ROW PRINCIPAL-->
 						<div id="imgPrincipal" class="row" style="text-align: center;margin-top: 10%;">
 							<div class="col-md-12 col-sm-12 col-xs-12">
-								<img alt="rf" src="${c}/resources/imgs/sysdt.png" width="70%" height="130%">
+								<img alt="rf" src="${c}resources/imgs/sysdt.png" width="70%" height="130%">
 							</div>
 						</div>
 						 
@@ -222,47 +222,47 @@
 	</div>
 
 	<!-- jQuery -->
-	<script src="/estimuladorapp/resources/js/jquery.min.js"></script>
+	<script src="resources/js/jquery.min.js"></script>
 	<!-- Bootstrap -->
-	<script src="/estimuladorapp/resources/js/bootstrap.min.js"></script>
+	<script src="resources/js/bootstrap.min.js"></script>
 	<!-- FastClick -->
-	<script src="/estimuladorapp/resources/js/fastclick.js"></script>
+	<script src="resources/js/fastclick.js"></script>
 	<!-- NProgress -->
-	<script src="/estimuladorapp/resources/js/nprogress.js"></script>
+	<script src="resources/js/nprogress.js"></script>
 	<!-- Custom Theme Scripts -->
-	<script src="/estimuladorapp/resources/js/custom.min.js"></script>
+	<script src="resources/js/custom.min.js"></script>
 	<!-- iCheck -->
-	<script src="/estimuladorapp/resources/js/icheck.min.js"></script>
+	<script src="resources/js/icheck.min.js"></script>
 	<!-- jQuery DataTables  -->
-	<script src="/estimuladorapp/resources/js/jquery.dataTables.min.js"></script>
+	<script src="resources/js/jquery.dataTables.min.js"></script>
 	<!-- jQuery DataTables Scroller -->
-	<script src="/estimuladorapp/resources/js/dataTables.scroller.min.js"></script>
+	<script src="resources/js/dataTables.scroller.min.js"></script>
 	<!-- jQuery DataTables Responsive -->
-	<script src="/estimuladorapp/resources/js/dataTables.responsive.min.js"></script>
+	<script src="resources/js/dataTables.responsive.min.js"></script>
 	<!-- jQuery DataTables Botones -->
 	<script
-		src="/estimuladorapp/resources/js/dtBotones/dataTables.buttons.min.js"></script>
+		src="resources/js/dtBotones/dataTables.buttons.min.js"></script>
 
 	<!-- DataTables y Bootstrap -->
-	<script src="/estimuladorapp/resources/js/dataTables.bootstrap.min.js"></script>
-	<script src="/estimuladorapp/resources/js/responsive.bootstrap.js"></script>
+	<script src="resources/js/dataTables.bootstrap.min.js"></script>
+	<script src="resources/js/responsive.bootstrap.js"></script>
 	<script
-		src="/estimuladorapp/resources/js/dtBotones/buttons.bootstrap.min.js"></script>
+		src="resources/js/dtBotones/buttons.bootstrap.min.js"></script>
 
 	<!-- SWITCHERY -->
-	<script src="/estimuladorapp/resources/js/switchery.min.js"></script>
+	<script src="resources/js/switchery.min.js"></script>
 
 	<!-- InputMask -->
-	<script src="/estimuladorapp/resources/js/jquery.inputmask.bundle.js"></script>
+	<script src="resources/js/jquery.inputmask.bundle.js"></script>
 
 	<!-- notify -->
-	<script src="/estimuladorapp/resources/js/notify.min.js"></script>
+	<script src="resources/js/notify.min.js"></script>
 
 	<!-- pNotify -->
-	<script src="/estimuladorapp/resources/js/pnotify.custom.min.js"></script>
+	<script src="resources/js/pnotify.custom.min.js"></script>
 
 	<!-- Sweet Alert 2 -->
-	<script src="/estimuladorapp/resources/js/sweetalert.min.js"></script>
+	<script src="resources/js/sweetalert.min.js"></script>
 
 	<!-- Google Maps -->
 	<script
@@ -270,20 +270,20 @@
 
 
 	<!-- jQuery Knob -->
-	<script src="/estimuladorapp/resources/js/jquery.knob.min.js"></script>
+	<script src="resources/js/jquery.knob.min.js"></script>
 	<!-- moment JS -->
-	<script src="/estimuladorapp/resources/js/moment-with-locales.min.js"></script>
+	<script src="resources/js/moment-with-locales.min.js"></script>
 	<!-- Slide Range Picker -->
-	<script src="/estimuladorapp/resources/js/ion.rangeSlider.min.js"></script>
+	<script src="resources/js/ion.rangeSlider.min.js"></script>
 	<!-- Date Range Picker -->
-	<script src="/estimuladorapp/resources/js/daterangepicker.js"></script>
+	<script src="resources/js/daterangepicker.js"></script>
 	<!-- jQuery UI -->
-	<script src="/estimuladorapp/resources/js/jquery-ui.min.js"></script>
+	<script src="resources/js/jquery-ui.min.js"></script>
 	<!-- jQuery Plain Overlay -->
-	<script src="/estimuladorapp/resources/js/jquery.plainoverlay.min.js"></script>
+	<script src="resources/js/jquery.plainoverlay.min.js"></script>
 	
 	<!-- GENERAL -->
-	<script src="/estimuladorapp/resources/js/interno/general.js"></script>
+	<script src="resources/js/interno/general.js"></script>
 
 </body>
 </html>
