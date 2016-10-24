@@ -17,7 +17,7 @@ input{
 
 
 .ui-autocomplete-loading {
-    background: transparent url("/estimuladorapp/resources/imgs/reload.gif") right center no-repeat;
+    background: transparent url("/resources/imgs/reload.gif") right center no-repeat;
   }
 
 .fondoRojo{

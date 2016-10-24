@@ -266,7 +266,7 @@
 
 	<!-- Google Maps -->
 	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg8fMqj67nLiW_ZZcd_RTp_bzS-w0rHx0&callback=initMap"></script>
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg8fMqj67nLiW_ZZcd_RTp_bzS-w0rHx0"></script>
 
 
 	<!-- jQuery Knob -->
