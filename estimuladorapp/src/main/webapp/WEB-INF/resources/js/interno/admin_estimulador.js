@@ -34,7 +34,7 @@ $(document).ready(function(){
 			 
 			 if(avanza){
 		         $.ajax({
-		             url: ctx+"/paciente/filtro",
+		             url: ctx+"paciente/filtro",
 		             type: "GET",
 		             data: {term: valor, tipoFiltro: tipoBusqueda},
 		             success: function (data) {
@@ -233,7 +233,7 @@ $(document).ready(function(){
 				  type: "warning"
 			},function(){
 				$.ajax({
-					url: ctx+'/estimulador/vincular',
+					url: ctx+'estimulador/vincular',
 					type: 'POST',
 					dataType: 'json',
 					data: {idEstimulador: estimSeleccionado.id, serie: estimSeleccionado.serie, idPaciente: idPacienteSel},
@@ -269,7 +269,7 @@ $(document).ready(function(){
 		}	
 		estimulador.serie = serieEstim.val();
 		$.ajax({
-			url: ctx+'/estimulador',
+			url: ctx+'estimulador',
 			type: 'POST',
 			data: {estimulador: JSON.stringify(estimulador), nuevo: isNuevo},
 			success: function(respuesta){
@@ -289,7 +289,7 @@ $(document).ready(function(){
 	function vincularEstimulador(){
 		console.log("ENTRA A VINCULAR ESTIMULADOR");
 		$.ajax({
-			url: ctx+'/estimulador/vincular',
+			url: ctx+'estimulador/vincular',
 			type: 'POST',
 			dataType: 'json',
 			data: {idEstimulador: estimSeleccionado.id, serie: estimSeleccionado.serie, idPaciente: idPacienteSel},
@@ -308,7 +308,7 @@ $(document).ready(function(){
 	
 	function desvincularEstimulador(){
 		$.ajax({
-			url: ctx+'/estimulador/desvincular',
+			url: ctx+'estimulador/desvincular',
 			type: 'POST', /*contentType: 'application/json',*/
 			dataType: 'json',
 			data: {estim: JSON.stringify(estimSeleccionado)},
@@ -331,7 +331,7 @@ $(document).ready(function(){
 		
 	function obtenerPacienteVinculado(idPaciente){
 		$.ajax({
-			url: ctx+'/estimulador/pax/'+idPaciente,
+			url: ctx+'estimulador/pax/'+idPaciente,
 			type:'GET',
 			dataType:'json',
 			success: function(paciente){
@@ -344,7 +344,7 @@ $(document).ready(function(){
 		console.log("ajax");
 		tablaEstimuladores.clear();
 		$.ajax({
-			url: ctx+"/estimulador",
+			url: ctx+"estimulador",
 			type: "GET",
 			dataType: "json",
 			success: function(estimuladores){
