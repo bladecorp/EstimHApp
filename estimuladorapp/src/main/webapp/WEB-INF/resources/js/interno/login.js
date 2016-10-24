@@ -4,6 +4,7 @@ $(document).ready(function(){
 	var formInc = $('#formInc');
 	var username = $('#username');
 	var password = $('#password');
+	var ctx = "estimuladorapp";
 	
 	init()
 	
