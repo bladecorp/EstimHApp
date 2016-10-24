@@ -50,8 +50,8 @@ public class GlobalFilter implements Filter {
 		res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
 		res.setHeader("Pragma", "no-cache"); // HTTP 1.0.
 		res.setDateHeader("Expires", 0);
-		if(!url.contentEquals("/estimuladorapp/") && !url.contentEquals("/estimuladorapp/login")
-				&& !url.contentEquals("/")){
+		if(/*!url.contentEquals("/estimuladorapp/") && !url.contentEquals("/estimuladorapp/login") && */
+				 !url.contentEquals("/") && !url.contentEquals("/login")){
 			HttpSession session = req.getSession(false);
 			if(session == null){
 				req.getRequestDispatcher("/accesoDenegado").forward(request, response);
