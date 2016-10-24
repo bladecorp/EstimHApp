@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var formInc = $('#formInc');
 	var username = $('#username');
 	var password = $('#password');
-	var ctx = "estimuladorapp";
+	var ctx2 = "estimuladorapp";
 	
 	init()
 	
@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
 	function enviarFormulario(){ console.log(ctx);
 		$.ajax({
-			url: ctx+'/login',
+			url: ctx2+'/login',
 			type: 'POST',
 			dataType: 'json',
 			data:{username: username.val().trim(), password: password.val().trim()},
