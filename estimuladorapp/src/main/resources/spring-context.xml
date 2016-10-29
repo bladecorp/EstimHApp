@@ -60,7 +60,7 @@
 		<property name="driverClass" value="com.mysql.jdbc.Driver" />
 		<property name="jdbcUrl" value="jdbc:mysql://us-cdbr-iron-east-04.cleardb.net/heroku_70734980b53d20c?reconnect=true" />
 		<property name="user" value="b9f59041ab3810" />
-		<property name="password" value="adfa91ae" />
+		<property name="password" value="393e2a6a86f2718" />
 	</bean>
 
 </beans>
