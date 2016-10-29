@@ -58,9 +58,9 @@
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
 		destroy-method="close">
 		<property name="driverClass" value="com.mysql.jdbc.Driver" />
-		<property name="jdbcUrl" value="jdbc:mysql://us-cdbr-iron-east-04.cleardb.net/heroku_70734980b53d20c?reconnect=true" />
-		<property name="user" value="b9f59041ab3810" />
-		<property name="password" value="393e2a6a86f2718" />
+		<property name="jdbcUrl" value="jdbc:mysql://us-cdbr-iron-east-04.cleardb.net/heroku_2a05bc3e37129c7?reconnect=true" />
+		<property name="user" value="b498b619dd3a0a" />
+		<property name="password" value="883d5adb" />
 	</bean>
 
 </beans>
